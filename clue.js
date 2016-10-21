@@ -69,7 +69,7 @@ var candlestick = { name: "candlestick", weight: 2 };
 var dumbbell    = { name: "dumbbell", weight: 30 };
 var poison      = { name: "poison", weight: 2 };
 var axe         = { name: "axe", weight: 15 };
-var bat         = { name: "bat", weight: "13" };
+var bat         = { name: "bat", weight: 13 };
 var trophy      = { name: "trophy", weight: 25 };
 var pistol      = { name: "pistol", weight: 20 };
 
@@ -78,7 +78,6 @@ var weaponsArray = [];
 weaponsArray.push(rope, knife, candlestick, dumbbell, poison, axe, bat, trophy, pistol);
 
 //Rooms
-
 var diningRoom   = { name: "Dinning Room" };
 var conservatory = { name: "Conservatory" };
 var kitchen      = { name: "Kitchen" };
@@ -110,17 +109,13 @@ function pick_mistery() {
   var weapon = random_selector(weaponsArray);
   var room = random_selector(roomsArray);
 
-  var result_array = {
-    killer: killer,
-    weapon: weapon,
-    room: room
-  };
-
+  var result_array = [];
+  result_array.push(killer, weapon,room);
   return result_array;
 }
 
 function reveal_mistery(mistery) {
-  console.log(mistery.killer.first_name + " " + mistery.killer.last_name + " killed Mr.Boddy using the " + mistery.weapon.name + " in the " + mistery.room.name + "!!!!");
+  console.log(mistery[0].first_name + " " + mistery[0].last_name + " killed Mr.Boddy using the " + mistery[1].name + " in the " + mistery[2].name + "!!!!");
 }
 
 var mistery_envelope = pick_mistery();
