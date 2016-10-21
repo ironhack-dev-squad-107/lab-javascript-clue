@@ -13,9 +13,9 @@ Hasbro, the toy maker company and owner of Cluedo, [recently changed](http://www
 
 ## Iteration 1 - <small>Creating the cards</small>
 
-Clue has three different types of cards: *suspects*, *rooms*, and *weapons*. These three types of cards are always separated.
-Use data structures to model and create these cards. In order to do this, you
-will need to know the game's characters (possible killers), available weapons and house rooms.
+Clue has three different types of cards: *suspects*, *rooms*, and *weapons*. These three types of cards are always separated. Use data structures to model and create these cards.
+
+In order to do this, you will need to know the game's characters (possible killers), available weapons and house rooms.
 
 ### Game Characters
 
@@ -25,7 +25,7 @@ This Clue board game has a new roster of playable characters. All of them  have 
 
 - **Doctor Orchid:** her color is *white*. She is the adopted daugther of Mr. Boddy, a biologist with a PhD in plant toxicology. She was privately educated in Switzerland until her expulsion after an incident involving daffodils resulted in a near-fatal poisoning *[(Wonder what happened with Mrs. White?)](http://www.telegraph.co.uk/news/2016/07/05/cluedo-kills-off-mrs-white-and-replaces-her-with-new-female-char/)*.
 
-- **Victor Plum:** his color is *purple*. He is is a billionaire video game designer who is embracing his new popularity.
+- **Victor Plum:** his color is *purple*. He is a billionaire video game designer who is embracing his new popularity.
 
 
 - **Kasandra Scarlet:** her color is *red*. She is an A-list movie star whose past haunts her.
@@ -39,7 +39,7 @@ This Clue board game has a new roster of playable characters. All of them  have 
 
 ### Available Weapons
 
-There are now nine weapon. Keep in mind you can add new attributes as weight, color, or even count how much one of these weapons can hurt!
+There are now nine weapons. Keep in mind you can add new attributes as weight, color, or even count how much one of these weapons can hurt!
 
 - Rope
 - Knife
@@ -70,6 +70,22 @@ The game board represents the layout of a mansion and features fifteen different
 - Theater
 - Guest house
 - A patio
+
+Create one data structure for each of the people, weapons and rooms described above. For example:
+
+```javascript
+var mrGreen = {
+  // Properties of mrGreen
+};
+
+// The other characters
+
+var rope = {
+  // Properties of the rope
+}
+
+// etc
+```
 
 ## Iteration 2 - <small>Creating and revealing the mistery</small>
 
