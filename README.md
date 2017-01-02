@@ -1,36 +1,14 @@
+![Ironhack Logo](https://i.imgur.com/1QgrNNw.png)
 
-# JS | Clue *- Mixin objects and arrays*
+# JS | Clue - Mixin objects and arrays
 
-Do you remember the classic detective game?
+Do you remember de classic detective game?
 
-Clue was a very popular game in the 90's. The plot starts with Mr. Boddy being killed by one of his guests. He was the very rich owner of Tudor Close, who takes the stock character of a generic victim.
+Clue was a very popular game in the 90's. The plot starts with Mr. Boddy being killed by one of his guests. He was the very rich owner of Tudor Close, who takes the stock character of a generic victim. After his dead, Clue players have to to discover who murdered him, with what implement, and where the crime scene took place in his mansion.
 
-After his dead, Clue players have to to discover who murdered him, with what implement, and where the crime scene took place in his mansion.
+Hasbro, the toy maker company and owner of Cluedo, [recently changed](http://www.independent.co.uk/arts-entertainment/cluedo-first-new-character-dr-orchid-mrs-white-dead-1949-hasbro-a7118351.html) some of the characters bio. Use the bio to gather information from the characters.
 
-Hasbro, the toy maker company and owner of Cluedo, [recently changed](http://www.independent.co.uk/arts-entertainment/cluedo-first-new-character-dr-orchid-mrs-white-dead-1949-hasbro-a7118351.html) some of the characters bio.
-
-![Clue Picture](https://i.imgur.com/AZWieq9.jpg)
-
-## Requirements
-
-- [Fork this repo](https://guides.github.com/activities/forking/)
-- Clone this repo into your `~/code/labs`
-
-## Submission Instructions
-
-Upon completion, run the following commands
-```
-$ git add .
-$ git commit -m "done"
-$ git push origin master
-```
-Navigate to your repo and create a Pull Request -from your master branch to the original repository master branch.
-
-In the Pull request name, add your name and last names separated by a dash "-"
-
-## Deliverables
-
-Write your JavaScript in the provided file. Submitting this file will be enough.
+![Clue Picture](https://i.imgur.com/AZWieq9.jpg =300)
 
 ## Iteration 1 - <small>Creating the cards</small>
 
@@ -60,7 +38,7 @@ This Clue board game has a new roster of playable characters. All of them  have 
 
 ### Available Weapons
 
-There are now nine weapons. Keep in mind you can add new attributes as weight, color, or even count how much one of these weapons can hurt!
+There are nine weapons. Keep in mind you can add new attributes as weight, color, or even count how much one of these weapons can hurt!
 
 - Rope
 - Knife
@@ -74,7 +52,7 @@ There are now nine weapons. Keep in mind you can add new attributes as weight, c
 
 ### House Rooms
 
-The game board represents the layout of a mansion and features fifteen different rooms:
+The game board represents the blueprints of a mansion and features fifteen different rooms:
 
 - Dining room
 - Conservatory
@@ -96,13 +74,11 @@ Create one data structure for each of the people, weapons and rooms described ab
 
 ```javascript
 var mrGreen = {
-  // Properties of mrGreen
+  // Properties
 };
 
-// The other characters
-
 var rope = {
-  // Properties of the rope
+  // Properties
 }
 
 // etc
@@ -117,7 +93,7 @@ var rope = {
 3. Place the “Case File Confidential” in a virtual envelope. :wink:
 4. Create a method to reveal the mistery.
 
-## Resources
+## Extra Resources
 
 - [20 Mind-blowing facts about Cluedo.](http://whatculture.com/offbeat/20-mind-blowing-facts-you-didnt-know-about-cluedo)
 - [Wikipedia](https://en.wikipedia.org/wiki/Cluedo)
