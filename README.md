@@ -1,7 +1,7 @@
-Exercise: Clue <small>*- Mixin objects and arrays*</small>
-=
 
-Do you remember de classic detective game?
+# JS | Clue *- Mixin objects and arrays*
+
+Do you remember the classic detective game?
 
 Clue was a very popular game in the 90's. The plot starts with Mr. Boddy being killed by one of his guests. He was the very rich owner of Tudor Close, who takes the stock character of a generic victim.
 
@@ -9,7 +9,28 @@ After his dead, Clue players have to to discover who murdered him, with what imp
 
 Hasbro, the toy maker company and owner of Cluedo, [recently changed](http://www.independent.co.uk/arts-entertainment/cluedo-first-new-character-dr-orchid-mrs-white-dead-1949-hasbro-a7118351.html) some of the characters bio.
 
-![](https://i.imgur.com/AZWieq9.jpg)
+![Clue Picture](https://i.imgur.com/AZWieq9.jpg)
+
+## Requirements
+
+- [Fork this repo](https://guides.github.com/activities/forking/)
+- Clone this repo into your `~/code/labs`
+
+## Submission Instructions
+
+Upon completion, run the following commands
+```
+$ git add .
+$ git commit -m "done"
+$ git push origin master
+```
+Navigate to your repo and create a Pull Request -from your master branch to the original repository master branch.
+
+In the Pull request name, add your name and last names separated by a dash "-"
+
+## Deliverables
+
+Write your JavaScript in the provided file. Submitting this file will be enough.
 
 ## Iteration 1 - <small>Creating the cards</small>
 
