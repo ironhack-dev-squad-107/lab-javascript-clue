@@ -10,6 +10,27 @@ Hasbro, the toy maker company and owner of Cluedo, [recently changed](http://www
 
 ![Clue Picture](https://i.imgur.com/AZWieq9.jpg =300)
 
+## Requirements
+
+- [Fork this repo](https://guides.github.com/activities/forking/)
+- Clone this repo into your `~/code/labs`
+
+## Submission Instructions
+
+Upon completion, run the following commands
+```
+$ git add .
+$ git commit -m "done"
+$ git push origin master
+```
+Navigate to your repo and create a Pull Request -from your master branch to the original repository master branch.
+
+In the Pull request name, add your name and last names separated by a dash "-"
+
+## Deliverables
+
+Write your JavaScript in the provided file. Submitting this file will be enough.
+
 ## Iteration 1 - <small>Creating the cards</small>
 
 Clue has three different types of cards: *suspects*, *rooms*, and *weapons*. These three types of cards are always separated. Use data structures to model and create these cards.
