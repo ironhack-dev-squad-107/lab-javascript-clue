@@ -4,8 +4,8 @@ mrGreen
 first_name:   Jacob
 last_name:    Green
 color:        green
-description:  He has a lot of connections'
-age:          45'
+description:  He has a lot of connections
+age:          45
 image:        https://pbs.twimg.com/profile_images/506787499331428352/65jTv2uC.jpeg
 occupation:   Entrepreneur
 
@@ -67,7 +67,6 @@ name: trophy      ---   weight: 25
 name: pistol      ---   weight: 20
 
 // Rooms
-
 name: Dinning Room
 name: Conservatory
 name: Kitchen
