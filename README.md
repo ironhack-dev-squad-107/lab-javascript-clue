@@ -53,6 +53,8 @@ The game board represents the blueprints of a mansion and features fifteen diffe
 
 Create one data structure for each of the people, weapons, and rooms described above. Each document must have all the info.
 
+After creating the data structure, create an array for each type of data and push every document into their corresponding array.
+
 For example:
 
 ```javascript
